@@ -1,0 +1,114 @@
+/*Your CSS Should go here*/
+
+body {
+
+    background-color: rgb(250, 215, 221);
+
+    margin: 2em;
+
+    border: 3em;
+    border-style: solid;
+    border-color: white;
+
+    padding: 3em;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+h1 {
+    font-family: Pacifico, cursive;
+    text-align: center;
+    color:rgb(77, 39, 45);
+    border-style: dashed;
+    border-color: white;
+}
+
+h1+p{
+    text-align: center;
+    color: rgb(77, 39, 45);
+    font-family: Quicksand, sans-serif;
+    font-size: large;
+}
+
+.list {
+    margin-left: 300px;
+    height: 500px;
+    font-family: Quicksan, sans-serif;
+    color:rgb(77, 39, 45);
+}
+
+ol {
+    margin-top: 20px;
+    font-size: x-large;
+    border-style: dashed;
+    border-color: rgb(77, 39, 45);
+    padding-top: 75px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.table {
+
+    height: 500px;
+    font-family: Quicksan, sans-serif;
+    color:rgb(77, 39, 45);
+}
+
+table {
+
+    background-color: rgb(243, 225, 199);
+    border-style: solid;
+    border-color: rgb(77, 39, 45);
+}
+
+
+.table th {
+    background-color: rgb(77, 39, 45);
+    color: white;
+    font-size: large;
+}
+
+.table td {
+
+    text-align: center;
+}
+
+.main h2 {
+
+    text-align: center;
+    font-family: Pacifico, cursive;
+    color: rgb(77, 39, 45);
+}
+
+#tubbs {
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    padding: 3em;
+    border-style:dashed;
+    border-color: white;
+}
+
+#explanation {
+    
+    color: rgb(77, 39, 45);
+    font-family: Quicksand, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+#explanation > h2 {
+
+    text-align: center;
+    font-family: Pacifico, cursive;
+    color: rgb(77, 39, 45);
+    border-top-style: dashed;
+    border-top-color: rgb(77, 39, 45);
+    
+}
